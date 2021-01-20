@@ -41,6 +41,8 @@ h1 {
 
 #result {
   width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 .update {
