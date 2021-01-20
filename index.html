@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>麻雀得点管理</title>
+  <meta name="description" content="計算入らず，得点自動計算">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css"  >
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body onload=&quot;DefaultSave()&quot;>
+  <div class="wrapper">
+    <h1 class="page-title">麻雀得点管理</h1>
+    <div class="select">
+      <div id="main">
+        <form name="score">
+          <table border="1">
+            <tr><th><input type="text" placeholder="名前"></th><th><input type="text" placeholder="名前"></th><th><input type="text" placeholder="名前"></th><th><input type="text" placeholder="名前"></th></tr>
+            <tr><td><input type="text" name="score11" value=0></td><td><input type="text" name="score21" value=0></td><td><input type="text" name="score31" value=0></td><td><input type="text" name="score41" value=0></td></tr>
+            <tr><td><input type="text" name="score12" value=0></td><td><input type="text" name="score22" value=0></td><td><input type="text" name="score32" value=0></td><td><input type="text" name="score42" value=0></td></tr>
+            <tr><td><input type="text" name="score13" value=0></td><td><input type="text" name="score23" value=0></td><td><input type="text" name="score33" value=0></td><td><input type="text" name="score43" value=0></td></tr>
+            <tr><td><input type="text" name="score14" value=0></td><td><input type="text" name="score24" value=0></td><td><input type="text" name="score34" value=0></td><td><input type="text" name="score44" value=0></td></tr>
+            <tr><td><input type="text" name="score15" value=0></td><td><input type="text" name="score25" value=0></td><td><input type="text" name="score35" value=0></td><td><input type="text" name="score45" value=0></td></tr>
+            <tr><td><input type="text" name="score16" value=0></td><td><input type="text" name="score26" value=0></td><td><input type="text" name="score36" value=0></td><td><input type="text" name="score46" value=0></td></tr>
+            <tr><td><input type="text" name="score17" value=0></td><td><input type="text" name="score27" value=0></td><td><input type="text" name="score37" value=0></td><td><input type="text" name="score47" value=0></td></tr>
+            <tr><td><input type="text" name="score18" value=0></td><td><input type="text" name="score28" value=0></td><td><input type="text" name="score38" value=0></td><td><input type="text" name="score48" value=0></td></tr>
+            <tr><td><input type="text" name="score19" value=0></td><td><input type="text" name="score29" value=0></td><td><input type="text" name="score39" value=0></td><td><input type="text" name="score49" value=0></td></tr>
+            <tr><td><input type="text" name="score110" value=0></td><td><input type="text" name="score210" value=0></td><td><input type="text" name="score310" value=0></td><td><input type="text" name="score410" value=0></td></tr>
+            <tr><td><input type="text" name="score111" value=0></td><td><input type="text" name="score211" value=0></td><td><input type="text" name="score311" value=0></td><td><input type="text" name="score411" value=0></td></tr>
+            <tr><td><input type="text" name="score112" value=0></td><td><input type="text" name="score212" value=0></td><td><input type="text" name="score312" value=0></td><td><input type="text" name="score412" value=0></td></tr>
+            <tr bgcolor="lightblue"><td><input type="text" name="sum1" value=0></td><td><input type="text" name="sum2" value=0></td><td><input type="text" name="sum3" value=0></td><td><input type="text" name="sum4" value=0></td></tr>
+          </table>
+        </score>
+      </div>
+      <div id="result">
+        <div><button type="button"  class="update">Update</button></div>
+      </div>
+    </div>
+
+  </div><!-- wraperの終わり -->
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <footer>
+    <div class="wrapper">
+      <p><small>&copy; 2021</small><p>
+      </div>
+    </footer>
+  </body>
+  </html>
